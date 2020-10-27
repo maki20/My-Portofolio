@@ -88,13 +88,12 @@ header {
 
 footer {
   background-color:#efefef;
-  height: 400px;
+  height: 250px;
 }
 
 footer p{
-  align-items: center;
+  align-items: bottom;
   text-align: center;
   font-size: 14px;
-  margin-bottom: 60px;
   color:black;
 }
