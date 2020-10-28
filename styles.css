@@ -10,7 +10,7 @@ body {
 header {
   background-color: #efefef;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 5px;
 }
 
 .container {
@@ -58,6 +58,18 @@ header {
   margin: 10px;
 }
 
+#nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+}
+
+#nav a{
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
 .works {
   width: 400px;
   margin-left: auto;
@@ -65,11 +77,11 @@ header {
 }
 
 .works > h1{
-  font-weight: normal;
+  font-weight: bold;
   font-size: 24px;
   text-align: center;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 .works > section {
@@ -77,23 +89,38 @@ header {
 }
 
 .works > section > h1 {
-  font-weight: normal;
+  font-weight: bold;
 
 }
 
+.works h4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
 .works p {
-  line-height: 1.8;
+  line-height: 1;
+  width: 505px;
+  
 }
 
 
 footer {
   background-color:#efefef;
   height: 250px;
+  z-index: 0;
 }
 
+
 footer p{
-  align-items: bottom;
-  text-align: center;
+  text-align:;
   font-size: 14px;
   color:black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-end;
 }
