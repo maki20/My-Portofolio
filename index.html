@@ -52,22 +52,23 @@
 
   <section>
     <a href="https://michiganwolves.com/coach-maki-koga/" target="_blank">
-    <img src="MyPortfolio/img/Soccer Coach.jpg" width="400" height="260" alt="勇者ゲームの紹介画像">
+    <img src="MyPortfolio/img/Soccer Coach.jpg" width="400" height="260" alt="コーチとしての紹介画像">
     </a>
     <h1>サッカーコーチ</h1>
   
     <p>現在アメリカでユース年代と大学で指導をしています。</p>
+    <p>もっと知りたい方は<a href="/Profile.html" target="_blank">こちら</a>をクリック。</p>
   </section>
   
   <section>
     <a href="https://github.com/maki20" target="_blank">
-  <img src="MyPortfolio/img/Engineer.jpg" width="400" height="260" alt="勇者ゲームの紹介画像">
+  <img src="MyPortfolio/img/Engineer.jpg" width="400" height="260" alt="PCのスクリーンの画像">
    </a>
   <h1>エンジニア</h1>
 
   <p>Web系のエンジニアです。</p>
   <p>ポートフォリオに関しては、GitHubをご覧下さい。</p>
-  <p>リンクはこちらです。</p>
+  <p>リンクは<a href="https://github.com/maki20" target="_blank">こちら</a></p>
 
   </section>
 
@@ -87,8 +88,31 @@
   
 
   <footer>
+    <div class="main">
+    <form action = "sent.php" method="post">
+      名前
+      <input type="text" name="name">
+    </form>
+    <form action = "sent.php" method="post">
+      Emailアドレス
+      <input type="text" name="email">
+    </form>
+    <select name="age">
+      <option value="10s">10代</option>
+      <option value="20s">20代</option>
+      <option value="30s">30代</option>
+      <option value="over40s">40代以上</option>
+    </select>
+    <form action = "sent.php" method="post">
+      ご意見やコメント
+      <textarea name="content"></textarea>
+    </form>
+
+    <input type="submit" value="送信">
+
+  </div>
     
-    <p>(c)maki.com</c></p> 
+    <div class="copy">(c)maki.com</div> 
   </footer>
   
 </body>

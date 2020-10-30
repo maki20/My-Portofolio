@@ -111,16 +111,39 @@ header {
 footer {
   background-color:#efefef;
   height: 250px;
-  z-index: 0;
+  
 }
 
 
 footer p{
-  text-align:;
   font-size: 14px;
   color:black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-content: flex-end;
+}
+
+.main {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+input[type="submit"]{
+  margin-top:30px;
+  width: 10%;
+  border: 1px solid #5cb85c;
+  border-radius: 4px;
+  padding:12px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  font-size: 14px;
+  line-height: 1.42;
+  color: white;
+  background-color: #5cb85c;
+  margin-bottom: 30px;
+  cursor: pointer;
 }
